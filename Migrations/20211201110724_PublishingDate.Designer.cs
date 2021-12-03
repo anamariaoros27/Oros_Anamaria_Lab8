@@ -9,7 +9,7 @@ using Oros_Anamaria_Lab8.Data;
 
 namespace Oros_Anamaria_Lab8.Migrations
 {
-    [DbContext(typeof(Oros_Anamaria_Lab8Context))]
+    [DbContext(typeof(Oros_Anamaria_Lab9Context))]
     [Migration("20211201110724_PublishingDate")]
     partial class PublishingDate
     {

@@ -8,7 +8,7 @@ using Oros_Anamaria_Lab8.Data;
 
 namespace Oros_Anamaria_Lab8.Migrations
 {
-    [DbContext(typeof(Oros_Anamaria_Lab8Context))]
+    [DbContext(typeof(Oros_Anamaria_Lab9Context))]
     partial class Oros_Anamaria_Lab8ContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

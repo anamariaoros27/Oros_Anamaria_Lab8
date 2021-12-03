@@ -12,9 +12,9 @@ namespace Oros_Anamaria_Lab8.Pages.Books
 {
     public class DetailsModel : PageModel
     {
-        private readonly Oros_Anamaria_Lab8.Data.Oros_Anamaria_Lab8Context _context;
+        private readonly Oros_Anamaria_Lab8.Data.Oros_Anamaria_Lab9Context _context;
 
-        public DetailsModel(Oros_Anamaria_Lab8.Data.Oros_Anamaria_Lab8Context context)
+        public DetailsModel(Oros_Anamaria_Lab8.Data.Oros_Anamaria_Lab9Context context)
         {
             _context = context;
         }

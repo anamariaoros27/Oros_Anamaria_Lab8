@@ -13,9 +13,9 @@ namespace Oros_Anamaria_Lab8.Pages.Categories
 {
     public class EditModel : PageModel
     {
-        private readonly Oros_Anamaria_Lab8.Data.Oros_Anamaria_Lab8Context _context;
+        private readonly Oros_Anamaria_Lab8.Data.Oros_Anamaria_Lab9Context _context;
 
-        public EditModel(Oros_Anamaria_Lab8.Data.Oros_Anamaria_Lab8Context context)
+        public EditModel(Oros_Anamaria_Lab8.Data.Oros_Anamaria_Lab9Context context)
         {
             _context = context;
         }

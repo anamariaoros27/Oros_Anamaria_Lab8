@@ -27,7 +27,7 @@ namespace Oros_Anamaria_Lab8
         {
             services.AddRazorPages();
 
-            services.AddDbContext<Oros_Anamaria_Lab8Context>(options =>
+            services.AddDbContext<Oros_Anamaria_Lab9Context>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("Oros_Anamaria_Lab8Context")));
         }
 

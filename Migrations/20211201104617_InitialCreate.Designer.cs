@@ -8,7 +8,7 @@ using Oros_Anamaria_Lab8.Data;
 
 namespace Oros_Anamaria_Lab8.Migrations
 {
-    [DbContext(typeof(Oros_Anamaria_Lab8Context))]
+    [DbContext(typeof(Oros_Anamaria_Lab9Context))]
     [Migration("20211201104617_InitialCreate")]
     partial class InitialCreate
     {

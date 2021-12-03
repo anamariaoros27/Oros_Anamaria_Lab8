@@ -12,9 +12,9 @@ namespace Oros_Anamaria_Lab8.Pages.Categories
 {
     public class DeleteModel : PageModel
     {
-        private readonly Oros_Anamaria_Lab8.Data.Oros_Anamaria_Lab8Context _context;
+        private readonly Oros_Anamaria_Lab8.Data.Oros_Anamaria_Lab9Context _context;
 
-        public DeleteModel(Oros_Anamaria_Lab8.Data.Oros_Anamaria_Lab8Context context)
+        public DeleteModel(Oros_Anamaria_Lab8.Data.Oros_Anamaria_Lab9Context context)
         {
             _context = context;
         }

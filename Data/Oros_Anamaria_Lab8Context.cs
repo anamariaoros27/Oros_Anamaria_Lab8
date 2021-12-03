@@ -8,9 +8,9 @@ using Oros_Anamaria_Lab8;
 
 namespace Oros_Anamaria_Lab8.Data
 {
-    public class Oros_Anamaria_Lab8Context : DbContext
+    public class Oros_Anamaria_Lab9Context : DbContext
     {
-        public Oros_Anamaria_Lab8Context (DbContextOptions<Oros_Anamaria_Lab8Context> options)
+        public Oros_Anamaria_Lab9Context (DbContextOptions<Oros_Anamaria_Lab9Context> options)
             : base(options)
         {
         }
